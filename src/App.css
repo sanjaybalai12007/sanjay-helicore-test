@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.ComponentA{
+  height: 100vh;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ComponentB{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  background-color: #61dafb;
+  flex-direction: column;
+}
+
+.ComponentC{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  background-color: #7dfb61;
+  flex-direction: column;
+}
+
+span{
+  color: darkblue;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
